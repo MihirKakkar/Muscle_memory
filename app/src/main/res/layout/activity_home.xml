@@ -7,13 +7,12 @@
     android:background="#000000"
     tools:context=".HomeActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="250dp"
-        android:layout_height="194dp"
-        android:text="muscle memory"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="35dp"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="307dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="394dp"
+        android:layout_height="83dp"
+        android:background="#ffffff"
+        android:text="add workout"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="29dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
