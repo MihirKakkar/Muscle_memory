@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -17,8 +18,12 @@ public class HomeActivity extends AppCompatActivity {
         adder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                addButton();
             }
         });
+    }
+
+    private void addButton() {
+        
     }
 }
