@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Muscle Memory</string>
+    <string name="btn1_title">add body part</string>
 </resources>
