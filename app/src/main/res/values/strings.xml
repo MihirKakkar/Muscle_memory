@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Muscle Memory</string>
     <string name="btn1_title">add muscle group</string>
+    <string name="intro">welcome. add the muscle groups you work:</string>
 </resources>

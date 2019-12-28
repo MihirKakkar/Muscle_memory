@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(homeIntent);
                 finish();
+                //all of this is the opening screen for the app
             }
         },OVERLAYTIMEOUT);
     }
