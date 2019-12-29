@@ -9,20 +9,20 @@
 
     <Button
         android:id="@+id/bodyadder"
-        android:layout_width="217dp"
-        android:layout_height="74dp"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
         android:text="@string/btn1_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="414dp"
         android:layout_height="31dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/intro"
         android:textColor="#ffffff"
