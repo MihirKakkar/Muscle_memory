@@ -18,7 +18,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button adder = (Button) findViewById(R.id.bodyadder);
+       Button adder = (Button) findViewById(R.id.bodyadder);
         adder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private void addButton() {
         Button button = new Button(HomeActivity.this);
+
 
     }
 }
