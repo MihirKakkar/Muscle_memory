@@ -31,7 +31,7 @@ public class FullscreenActivity extends AppCompatActivity {
                 finish();
 
             }
-        },TIMER_FOR_OVERLAY)
+        },TIMER_FOR_OVERLAY);
     }
 
 

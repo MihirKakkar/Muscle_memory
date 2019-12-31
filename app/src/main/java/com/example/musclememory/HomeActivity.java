@@ -60,11 +60,12 @@ public class HomeActivity extends AppCompatActivity {
        Button adder = (Button) findViewById(R.id.bodyadder);
         final int i = 1;
 
+
         adder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                int ClickCounter = 0;
+                int ClickCounter;
+                ClickCounter = 0;
                 ClickCounter += i ;
 
                 //so that fade in and fade out does not happen every time
